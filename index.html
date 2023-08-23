@@ -46,7 +46,7 @@
         </section>
     </header>
     <main class="bg-[#F8F8F8]" >
-        <section class="flex flex-col gap-4 lg:flex lg:flex-row lg:gap-8 py-28">
+        <section class="flex flex-col gap-4  lg:flex lg:flex-row lg:gap-8 py-28">
             <!-- items -->
             <div >
                 <!-- slide-1 -->
@@ -375,14 +375,14 @@
                 </div>
             </div>
             <!-- cart -->
-            <div class="px-4 lg:px-0 m-auto lg:m-0">
-                <div class="lg:pt-[73px] flex flex-col  gap-3">
+            <div class="px-4 lg:px-0 m-auto lg:m-0 ">
+                <div class="lg:sticky lg:-top-16 lg:pt-[73px] flex flex-col  gap-3">
                     <!-- cupon -->
                     <div class="bg-white w-auto    flex flex-col gap-3 px-2 md:px-7 lg:px-7 py-4 rounded-lg shadow-lg " >
                         <h1 class="text-black text-xl font-medium" >Have coupon?</h1>
                         <div class="flex flex-row align-middle" >
                             <input id="cupon_field" class="border-gray-300 p-2 border rounded-l-md	" type="text" placeholder="Cupon Code">
-                            <button id="cupon_btn"  class="text-white text-sm font-semibold bg-[#E527B2] px-3 py-[5.3px] rounded-r-md hover:bg-[#7a5870]  " disabled  >Apply</button>
+                            <button id="cupon_btn"  class="text-white text-sm font-semibold  px-3 py-[5.3px] rounded-r-md bg-[#7a5870]  " disabled  >Apply</button>
                         </div>
                     </div>
                     <div class="bg-white  w-auto   flex flex-col gap-3 px-2 md:px-7 lg:px-7 py-4 rounded-lg shadow-lg">
@@ -399,7 +399,7 @@
                         </div>
                         <div class="flex justify-center">
                             <!-- Open the modal using ID.showModal() method -->
-                            <button id="purchase-btn" class="bg-[#E527B2] text-white px-5 py-2 rounded-lg font-semibold hover:bg-[#7a5870] " disabled  onclick="my_modal_5.showModal()">Make Purchase</button>
+                            <button id="purchase-btn" class=" text-white px-5 py-2 rounded-lg font-semibold bg-[#7a5870] " disabled  onclick="my_modal_5.showModal()">Make Purchase</button>
                             <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
                             <form method="dialog" class="modal-box">
                                 <img class="m-auto" src="./images/congo.png" alt="">

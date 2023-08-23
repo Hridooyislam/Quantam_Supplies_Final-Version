@@ -95,10 +95,12 @@ function updateCartTotal() {
 
     if (total_show.innerText > 0) {
         document.getElementById('purchase-btn').removeAttribute('disabled');
+        document.getElementById('purchase-btn').style.backgroundColor = '#E527B2';
     } 
 
     if (parseFloat(total_show.innerText) >= 200) {
         document.getElementById('cupon_btn').removeAttribute('disabled');
+        document.getElementById('cupon_btn').style.backgroundColor = '#E527B2';
     }
 }
 
